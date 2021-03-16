@@ -1,0 +1,10 @@
+<aui:validator name="required" />
+
+<aui:validator errorMessage="error.assignment-title-format" name="custom">
+	function(val, fieldNode, ruleValue) {
+		var wordExpression = 
+			new RegExp("^[^\\[\\]\\^$<>]*$");
+		
+		return wordExpression.test(val);
+	}
+</aui:validator>

@@ -1,0 +1,7 @@
+<!-- Finders -->
+	
+<!-- Find by groupId -->
+	
+<finder name="GroupId" return-type="Collection">
+	<finder-column name="groupId"></finder-column>
+</finder>

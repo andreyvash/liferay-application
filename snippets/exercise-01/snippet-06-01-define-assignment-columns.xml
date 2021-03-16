@@ -1,0 +1,3 @@
+<column name="title" type="String" localized="true" />
+<column name="description" type="String" localized="true" />
+<column name="dueDate" type="Date" />

@@ -1,0 +1,2 @@
+@Reference
+protected AssignmentPermission _assignmentPermission;

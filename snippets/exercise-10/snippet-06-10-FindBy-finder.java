@@ -1,0 +1,1 @@
+assignmentPersistence.filterFindByGroupId(groupId);
